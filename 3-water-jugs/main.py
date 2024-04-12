@@ -60,6 +60,7 @@ def plan(jug1, jug2, goal):
     #
     # Return value:     List of <Action>s to be taken to obtain
     #                   the desired amount in any of the jugs
+    #                   or `None` if case is impossible
     raise NotImplementedError()
 
 

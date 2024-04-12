@@ -11,4 +11,4 @@ Current state: (2, 5), taking action: Action.POUR_2_TO_1
 Current state: (3, 4)
 ```
 
-See [this post]() for more information.
+See [this post](https://andersource.dev/2024/04/12/bfs-zero-to-hero-3-4.html) for more information.
