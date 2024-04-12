@@ -1,4 +1,4 @@
-# Maze BFS challenge
+# Snake BFS challenge
 
 ![Animation of snake being played](https://andersource.dev/assets/bfs-zero-to-hero/snake_bfs.gif)
 
