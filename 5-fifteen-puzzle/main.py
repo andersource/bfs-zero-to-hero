@@ -61,9 +61,14 @@ def find_empty_pos(board):
 
 
 def find_instructions(board):
+    # Params:
+    #   board:          Nested list describing current board state. List of list of ints,
+    #                   each number denotes itself except 0 which denotes the empty square.
+    #
     # Return value:     List of <Direction>s to move the empty square in order to solve the puzzle.
     #                   Note that we're treating the empty square as if it's moving around, even
     #                   though in practice it's other squares that are moving onto the empty one.
+    #
     raise NotImplementedError()
 
 
