@@ -34,12 +34,13 @@ def find_instructions(board):
     # Params:
     #   board:          List of dictionaries describing current board state. Each dict is of the form:
     #                   {
-    #                       "cell": [[2, 1], [2, 2]]   # Positions occupied by vehicle
-    #                       "color": [143, 114, 164]   # Vehicle color
+    #                       "cell": [[2, 1], [2, 2]]   # Positions occupied by vehicle ([y, x])
+    #                       "color": [143, 114, 164]   # Vehicle color ([r, g, b])
     #                       "orientation": <Orientation.HORIZONTAL>  # Vehicle orientation
     #                   }
     #                   The player's car is the reddest of them all :)
     #
-    # Return value:     List of tuples of (index, <Direction>) to move the vehicles in order to solve the puzzle.
+    # Return value:     List of tuples of (vehicle_index, <Direction>) to move the vehicles
+    #                   in order to solve the puzzle.
     #
     raise NotImplementedError()
