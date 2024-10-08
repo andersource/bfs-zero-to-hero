@@ -1,0 +1,11 @@
+Artist.ArtistId <-> Album.ArtistId
+Album.AlbumId <-> Track.AlbumId
+Track.MediaTypeId <-> MediaType.MediaTypeId
+Track.GenreId <-> Genre.GenreId
+Track.TrackId <-> PlaylistTrack.TrackId
+PlaylistTrack.PlaylistId <-> Playlist.PlaylistId
+Track.TrackId <-> InvoiceLine.TrackId
+InvoiceLine.InvoiceId <-> Invoice.InvoiceId
+Invoice.CustomerId <-> Customer.CustomerId
+Employee.EmployeeId <-> Customer.SupportRepId
+Employee.EmployeeId <-> Employee.ReportsTo
